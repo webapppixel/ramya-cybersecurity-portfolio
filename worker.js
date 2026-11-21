@@ -27,7 +27,8 @@ function corsHeaders(origin) {
 export default {
   async fetch(request, env) {
     const origin = request.headers.get("Origin") || "";
-    const allowedOrigin = ALLOWED_ORIGIN(env);\n    const headers = corsHeaders(origin, allowedOrigin);
+    const allowedOrigin = ALLOWED_ORIGIN(env);
+    const headers = corsHeaders(origin, allowedOrigin);
     if (request.method === "OPTIONS") return new Response(null, { status: 204, headers });
     const url = new URL(request.url);
     if (url.pathname !== "/chat" || request.method !== "POST") {
