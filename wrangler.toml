@@ -5,4 +5,4 @@ compatibility_date = "2026-11-21"
 
 [vars]
 GROQ_MODEL = "openai/gpt-oss-20b"
-ALLOWED_ORIGIN = "https://webapppixel.github.io/ramya-cybersecurity-portfolio/"
+ALLOWED_ORIGIN = "https://webapppixel.github.io"
