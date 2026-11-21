@@ -1,0 +1,6 @@
+name = "ramya-portfolio-chat"
+main = "worker.js"
+compatibility_date = "2026-11-21"
+
+[vars]
+GROQ_MODEL = "openai/gpt-oss-20b"\nALLOWED_ORIGIN = "https://YOUR-GITHUB-USERNAME.github.io"
