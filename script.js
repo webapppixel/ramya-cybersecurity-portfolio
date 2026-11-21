@@ -1,5 +1,5 @@
 // Set this to your deployed Cloudflare Worker URL after deployment.
-const CHAT_API_URL = "https://YOUR-WORKER-NAME.YOUR-SUBDOMAIN.workers.dev/chat";
+const CHAT_API_URL = "https://ramya-cybersecurity-portfolio.gbhuvanesh23.workers.dev/chat";
 
 const menuToggle = document.getElementById("menuToggle");
 const nav = document.getElementById("nav");
